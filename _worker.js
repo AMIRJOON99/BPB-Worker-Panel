@@ -15,7 +15,7 @@ const proxyIPs= ["94.130.104.64"];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://cloudflare-dns.com/dns-query';
+let dohURL = 'https://dns.google/dns-query';
 
 let panelVersion = '2.3.2';
 
